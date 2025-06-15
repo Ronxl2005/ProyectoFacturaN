@@ -11,11 +11,11 @@ package Admin;
 //ALISSON
 public class Docente {
    public String[] profesores = {
-        "Lic. Axel Hitler, Titulado en Ciencias de la Matemática",
-        "Lic. Alisson Orellana, Especialista en Biología Molecular",
-        "Lic. Anderson Naula, Máster en Enseñanza del Inglés",
+        "Lic. Axel Hitler, Titulado en Ciencias de la Matematica",
+        "Lic. Alisson Orellana, Especialista en Biologia",
+        "Lic. Anderson Naula, Master en Enseñanza del Ingles",
         "Lic. Anahi Encarnacion, Titulada en Lengua Portuguesa",
-        "Lic. Ronal Cueva, Máster en Filología Francesa"
+        "Lic. Ronal Cueva, Master en Filologia Francesa"
     };
 
 }
