@@ -26,11 +26,11 @@ public class Ejecutor {
     }
 
     public void iniciar() {
-        System.out.println("=== Crear cuenta ===");
+        System.out.println(" --- Crear cuenta --- ");
         estudiante = new Estudiantes(sc);
         estudiante.registrarUsuario();
 
-        System.out.println("\n=== Iniciar sesión ===");
+        System.out.println("\n--- Iniciar sesion ---");
         while (!estudiante.login()) {
             System.out.println("Usuario o contraseña incorrectos. Intente de nuevo.");
         }
@@ -51,7 +51,7 @@ public class Ejecutor {
         do {
             System.out.print("\nIngrese cantidad de cursos (1-5): ");
             while (!sc.hasNextInt()) {
-                System.out.print("Número inválido. Intente 1-5: ");
+                System.out.print("Numero inválido. Intente 1-5: ");
                 sc.next();
             }
             cantidad = sc.nextInt();

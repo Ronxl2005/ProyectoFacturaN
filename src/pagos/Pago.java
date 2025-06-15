@@ -11,6 +11,7 @@ import Admin.Asignaturas;
  *
  * @author ronal
  */
+// AXEL
 public class Pago {
     public void hacerPago(Scanner teclado, String[] cursosElegidos, Asignaturas materias) {
         double totalSinIva = 0;

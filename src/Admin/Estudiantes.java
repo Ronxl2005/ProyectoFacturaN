@@ -6,8 +6,9 @@ package Admin;
 import java.util.Scanner;
 /**
  *
- * @author ronal
+ * @author anahijaramillo
  */
+//ANAHI 
 public class Estudiantes {
     private String usuario;
     private String contrasena;
