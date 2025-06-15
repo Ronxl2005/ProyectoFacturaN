@@ -12,7 +12,7 @@ import java.util.Scanner;
 // ANDERSON
 public class Asignaturas {
 
-    private String[] cursos = {"matematicas", "biologia", "ingles", "portugues", "frances"};
+    private String[] cursos = {"1. MATEMATICAS", "2. BIOLOGIA", "3. INGLES", "4. PORTUGUES", "5. FRANCES"};
     private double[] precios = {100, 100, 120, 120, 120};
     private String[] descripciones = {
         "Curso de matematicas basicas",
