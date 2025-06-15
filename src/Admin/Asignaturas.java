@@ -35,17 +35,17 @@ int opcion = -1;
         boolean valido = false;
 
         do {
-            System.out.print("Seleccione el número del curso (1 al 5): ");
+            System.out.print("Seleccione el numero del curso (1 al 5): ");
             if (sc.hasNextInt()) {
                 opcion = sc.nextInt();
                 sc.nextLine(); 
                 if (opcion >= 1 && opcion <= cursos.length) {
                     valido = true;
                 } else {
-                    System.out.println("Número fuera de rango, intenta de nuevo.");
+                    System.out.println("Numero fuera de rango, intenta de nuevo.");
                 }
             } else {
-                System.out.println("Entrada inválida. Debe ingresar un número.");
+                System.out.println("Entrada invalida. Debe ingresar un nuumero.");
                 sc.nextLine(); 
             }
         } while (!valido);
